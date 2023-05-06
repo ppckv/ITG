@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <title>Signup-ITG</title>
+    <meta charset="UTF-8">
+    <!---<title> Responsive Registration Form | CodingLab </title>--->
+    <link rel="icon" href="image/favicon1.ico">
+
+    <link rel="stylesheet" href="css-itg/signup.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://kit.fontawesome.com/512dfa1b87.js" crossorigin="anonymous"></script>
+     <script>
+
+function itgloginprem() {
+  var email = document.getElementById("mail").value;
+  var password = document.getElementById("pass").value;
+  var payload = { id: 1, mailid: email, password: password };
+
+  var options = {
+    method: 'POST',
+    body: JSON.stringify(payload),
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  };
+
+  fetch('https://trendingdecors.in/api/itgprem/', options)
+    .then(response => response.json())
+    .then(data => {
+      console.log('API response:', data);
+      alert('You have Registered successfully!');
+       window.location.href = './login.html'; // redirect to itg.html
+    })
+    .catch(error => console.error('Error sending data to API:', error));
+}
+
+     </script>
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">First Name</span>
+            <input type="text" placeholder="First Name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Last Name</span>
+            <input type="text" placeholder="Last Name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="email" id="mail" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input id="pass" type="password" placeholder="Enter your password" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="password" placeholder="Confirm your password" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">others</span>
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" onclick="itgloginprem()" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

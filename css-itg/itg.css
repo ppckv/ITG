@@ -1,0 +1,226 @@
+h1 {
+  font-family: 'Montserrat, sans-serif';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Ubuntu';
+}
+
+p {
+  color: #8f8f8f;
+}
+.link-name{
+  text-decoration: none;
+  color: red;
+}
+
+body {
+  font-family: " Montserrat";
+}
+
+#title {
+  /* background-image: url('https://png.pngtree.com/background/20210710/original/pngtree-cartoon-national-holiday-season-travel-banner-picture-image_1008735.jpg'); */
+
+ background-image: url('../image/front-bg.png');
+  background-position: bottom;
+  background-size: cover;
+  height: 629px;
+  color: #fff;
+}
+
+
+.fonthed {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.3;
+  padding-left: 47%;
+  /* text-align:right; */
+  text-align: center;
+  width: auto;
+  color: #eb8c00;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* navigation bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+  color: #FF5733;
+
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-links {
+  color: black;
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+  text-decoration: none;
+  position: relative;
+  top: 4px;
+  padding: 9px 15px;
+  border-radius: 5px;
+  transition: all 0.4s ease;
+}
+.nav-links:hover{
+  background: rgb(111,183,238);
+  color: rgb(255,255,255);
+}
+.login {
+  color: black;
+  /* padding left: 30px; */
+  /* padding-top: 65%;
+  padding-bottom: 50%; */
+  border-radius: 15px;
+}
+
+.detail-div {
+  padding: 3% 15% 7%;
+  background-color: #DFFFD8;
+  text-align: center;
+  border-radius: 100% 100%;
+  height: 18rem;
+}
+
+.icon-detail {
+  font-size: 4rem;
+  color: green;
+  /* color: #EB455F; */
+}
+
+.table-detail {
+  line-height: 1.5rem;
+  text-align: left;
+  padding: 0% 3%;
+}
+
+.h2-detail {
+  line-height: 2.9rem;
+  color: #FF5733;
+}
+
+.detail-table {
+  font-family: Ubuntu;
+  width: 100%;
+  padding: 7% 15%;
+}
+
+/* imageg */
+
+
+/* packege-details */
+
+.pack-detail{
+  padding: 3% 15% 7%;
+    background-color: #F0EB8D;
+}
+/* .pack-name {
+  position: relative;
+  left: 20%;
+  width:250px;
+
+} */
+
+
+.div-pack {
+  padding: 3% 15% 7%;
+  background-color: #F0EB8D;
+  width: 100%;
+  height: 450px;
+}
+.div-pack1{
+  padding-bottom: 5%;
+}
+.ooty-pack{
+
+  height: 450px;
+}
+/* .ooty-name{
+
+
+   position: relative;
+   left: 20%;
+   width:250px;
+}
+
+.yercaud-name{
+  width:250px;
+  position: relative;
+
+} */
+.places-name{
+  width:250px;
+   position: relative;
+   /* left: 20%; */
+}
+.img-places{
+  border-radius:10px;
+  height: 250px;
+  width: 250px;
+  margin-right: 3px;
+  /* padding: 5% 5%; */
+  transition: .5s;
+  /* overflow: hidden; */
+}
+#testimonials{
+
+  padding: 0% 15%;
+  text-align: center;
+  background-color:#e8f3fb;
+  height: 23.5rem;
+}
+/* .test-button{
+  padding-right: 25px;
+  color: black;
+
+} */
+.carousel-control-prev-icon{
+  /* position: absolute;
+  right : 190px; */
+  background-color: #000000;
+  border-radius: 100%;
+}
+.carousel-control-next-icon {
+  /* position: absolute;
+  left : 170px; */
+  background-color: #000000;
+  border-radius: 100%;
+}
+.next-button{
+  position: absolute;
+  right: 100%;
+
+}
+.prev-button{
+  position: absolute;
+  left: 100%;
+}
+.img-places:hover{
+  transform: scale(1.1) rotate(-3deg);
+  cursor: pointer;
+}
+.div-img{
+  overflow: hidden;
+}
+.goa-link{
+
+}

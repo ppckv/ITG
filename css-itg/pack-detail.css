@@ -1,0 +1,195 @@
+.navbar-brand {
+  font-size: 80px;
+}
+body{
+
+  background-color:	#DAF5FF;
+}
+#pack-details1 {
+  padding: 2% 10% 2%;
+  height: 995px;
+  background-color:	#e8ca93;
+  border-radius: 150px;
+  margin: 0 30px 10px 30px;
+}
+
+#pack-details2 {
+  padding: 2% 10% 2%;
+  height: 995px;
+  background-color:	#f0e2a8;
+  border-radius: 150px;
+  margin: 0 30px 0 30px;
+}
+.packages {
+  text-align: center;
+}
+.main-head{
+  width: auto;
+}
+
+/* image */
+.img-container-2 {
+  width: 610px;
+}
+
+.img1 {
+  width: 710px;
+  height: 350px;
+  border-radius: 20PX;
+  border-right: 20px;
+}
+.img2{
+  height: 350px;
+  width: 500px;
+  position: relative;
+  left: 715px;
+  bottom: 350px;
+  border-radius: 20px;
+}
+.Itinerary{
+  position:relative;
+  left: 725px;
+  bottom: 350px;
+  width: 150px;
+}
+/* button */
+.carousel-control-prev-icon {
+  background-color: #000000;
+  border-radius: 100%;
+}
+
+.carousel-control-next-icon {
+  background-color: #000000;
+  border-radius: 100%;
+}
+
+.prev-button {
+  height: 100px;
+  position: absolute;
+  top: 138px;
+}
+
+.next-button {
+  height: 100px;
+  position: absolute;
+  top: 138px;
+  left: 620px;
+}
+
+/* button */
+/* packege-detail */
+.pak-name{
+  position: absolute;
+  top: 200px;
+  width: 650px;
+
+}
+.pak-detail{
+  position: absolute;
+  top:240px;
+  width:auto;
+}
+.btn-group{
+  position: absolute;
+  bottom: 500px;
+}
+.get-btn{
+  position: absolute;
+  bottom:180px;
+}
+.food-icon{
+  height: 50px;
+  width:60px;
+}
+
+.flight-icon-detail{
+  /* text-align: left;
+  position: absolute;
+  top: 450px; */
+  width: 100%
+}
+.cab-icon-detail{
+  /* position: absolute;
+  bottom:55px; */
+}
+.hotel-icon-detail{
+  /* position: absolute;
+  bottom:5px; */
+}
+.accordion-whatgetdetial{
+  position: absolute;
+  top: 720px;
+}
+.accordion-Itinerary{
+  position: absolute;
+  top: 650px;
+}
+.accordion{
+  position:relative;
+  bottom: 360px;
+  left: 360px;
+  z-index: 1;
+}
+.day-pack{
+  font-size:18px;
+  position: absolute;
+  top: 917px;
+  left: 180px;
+}
+.abt-goa{
+  position: absolute;
+  top: 270px;
+  width: 600px;
+  height: auto;
+}
+.book-pack{
+  position: absolute;
+  top: 905px;
+  left: 320px;
+}
+.rupees{
+  color:red;
+  position: absolute;
+  top: 365px;
+  width:auto;
+}
+.couple{
+  position: absolute;
+  top: 380px;
+  left: 180px;
+  width: auto;
+}
+.right-det{
+  padding-left: 20px;
+  position: absolute;
+  top: 500px;
+}
+.radio {
+  display:none;
+}
+.whatweget1{
+  position:relative;
+  top: 795px;
+  right: 460px;
+  width: 500px;
+}
+.whatweget2{
+  position: relative;
+  top: 825px;
+  right: 465px;
+  width: 500px;
+}
+.details-pa2{
+position: relative;
+top: 970px;
+}
+.night-button1{
+  position: relative;
+  bottom: 530px;
+  right: 180px;
+}
+.night-button2{
+  position: relative;
+  bottom: 500px;
+  right: 180px;
+}

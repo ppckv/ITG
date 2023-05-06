@@ -1,0 +1,115 @@
+#explore{
+  position: absolute;
+  top: 200%
+}
+#round-img{
+  position: relative;
+  top: 20px;
+    /* background: #F8F2F2; */
+}
+.inner-box {
+  /* padding: 3% 15%; */
+  position: absolute;
+  /* width: 1843px; */
+  height: 300px;
+  width: 99%;
+  /* height: 180%; */
+  top: 20%;
+  left: 1%;
+  background: #F8F2F2;
+  border-radius: 48px;
+  text-align: center;
+
+
+}
+.inner-rect{
+  /* padding:15% 15%; */
+  /* background-color: red; */
+}
+/* goaimage */
+.goa-img {
+  position: absolute;
+  width: 119px;
+  height: 111px;
+  /* z-index: 1; */
+  border-radius: 100%;
+  transition: 0.3s ease;
+  /* background: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/fc/f0/goa.jpg?w=700&h=500&s=1); */
+}
+.goa-img:hover{
+  transform: scale(1.5);
+  z-index: 1;
+}
+/* Homestays-Villas & Apts */
+.goa-details {
+  position: absolute;
+  left: 150px;
+  top: 35px;
+  width: 225px;
+  height: 27px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+  text-align: left;
+}
+
+/* Goa */
+.goa-name {
+  position: absolute;
+  left: 150px;
+  width: 47px;
+  height: 30px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+  color: #000000;
+}
+
+/* goa */
+.div-goa {
+  position: absolute;
+  bottom: 91%;
+  left: 9%;
+}
+
+/* kerala */
+.div-kerala {
+  position: absolute;
+  left: 520px;
+  bottom: 91%;
+}
+
+/* Delhi */
+.div-delhi {
+  position: absolute;
+  left: 950px;
+  bottom: 91%;
+}
+
+/* Shimla */
+.div-shimla {
+  position: absolute;
+  bottom: 150px;
+  left:9%;
+}
+
+/* mysore */
+.div-mysore {
+  position: absolute;
+  bottom: 150px;
+  left: 520px;
+}
+
+/* ladakh */
+.div-ladakh {
+  position: absolute;
+  bottom: 150px;
+  left: 950px;
+
+}
